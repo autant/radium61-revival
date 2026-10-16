@@ -1,0 +1,19 @@
+**/bin/
+**/obj/
+dist/
+.vs/
+*.user
+*.suo
+*.log
+*.tmp
+*.pdb
+*.dmp
+*.zip
+# Do not commit M-Audio proprietary firmware/drivers or local USB recordings
+MAudio*.bin
+MAudio*.sys
+*.inf
+v47-usb-*.txt
+capture-*.txt
+notes-*.txt
+player-settings.json
